@@ -43,14 +43,14 @@ bool BpTree::printRange(string item, int min, int max) {
 
 	return true;
 }
-void BpTree::printSubset(set<string> pSubset, string item) {
+void BpTree::printFrequentPattern(set<string> pFrequentPattern, string item) {
 	*fout << "{";
-	set<string> curSet = pSubset;
-	curSet.erase(item);
-	for (set<string>::iterator it = curSet.begin(); it != curSet.end();) {
+	set<string> curPattern = pFrequentPattern;
+	curPattern.erase(item);
+	for (set<string>::iterator it = curPattern.begin(); it != curPattern.end();) {
 		string temp = *it++;
 		if (temp != item) *fout << temp;
-		if (it == curSet.end()) {
+		if (it == curPattern.end()) {
 			*fout << "} ";
 			break;
 		}
