@@ -69,10 +69,10 @@ $ git clone https://github.com/DSLDataStorage/DS_Project_2_2020_2.git
 ##### make명령어 실행 후 ls명령어를 통해 해당 디렉토리를 확인해 보면 run 이라는 파일이 생긴것을 확인 할 수 있다. 
 ```
 $ make
-g++ -std=c++11 -g -o run HeaderTable.cpp FPNode.cpp BpTree.cpp Manager.cpp main.cpp FPGrowth.cpp BpTree.h Manager.h SubSetNode.h BpTreeNode.h FPGrowth.h BpTreeIndexNode.h HeaderTable.h FPNode.h BpTreeDataNode.h
+g++ -std=c++11 -g -o run HeaderTable.cpp FPNode.cpp BpTree.cpp Manager.cpp main.cpp FPGrowth.cpp BpTree.h Manager.h FrequentPatternNode.h BpTreeNode.h FPGrowth.h BpTreeIndexNode.h HeaderTable.h FPNode.h BpTreeDataNode.h
 
 $ ls
-BpTree.cpp BpTreeNode.h FPNode.cpp main.cpp market.txt BpTreeDataNode.h command.txt FPNode.h makefile BpTree.h FPGrowth.cpp HeaderTable.cpp Manager.cpp SubSetNode.h BpTreeIndexNode.h FPGrowth.h HeaderTable.h Manager.h **run**
+BpTree.cpp BpTreeNode.h FPNode.cpp main.cpp market.txt BpTreeDataNode.h command.txt FPNode.h makefile BpTree.h FPGrowth.cpp HeaderTable.cpp Manager.cpp FrequentPatternNode.h BpTreeIndexNode.h FPGrowth.h HeaderTable.h Manager.h **run**
 ```
 ### how to run code
 ##### ./(생성된 실행파일) 의 형식으로 생성된 run 실행파일을 실행한다.
