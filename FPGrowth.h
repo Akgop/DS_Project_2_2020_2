@@ -11,7 +11,7 @@ private:
 	int threshold;
 	FPNode* fpTree;
 	HeaderTable* table;
-	map<set<string>, int> subSet;
+	map<set<string>, int> frequenctPattern;
 	ofstream* fout;
 	ofstream flog;
 public:
@@ -28,13 +28,13 @@ public:
 	void connectNode(HeaderTable* table, string item, FPNode* node);
 
 	
-	void SubsetSetting() {
+	void frequenctPatternSetting() {
 		table->ascendingIndexTable();
-		subSet = getFrequentPattern(table, fpTree);
+		frequenctPattern = getFrequentPattern(table, fpTree);
 	}
 
 	map<set<string>, int> getFrequentPattern(HeaderTable* pTable, FPNode* pTree);
-	void powerSet(map<set<string>, int>* subset, vector<string> data, string item, int frequency, int* flag, int depth);
+	void powerSet(map<set<string>, int>* FrequenctPattern, vector<string> data, string item, int frequency, int* flag, int depth);
 	bool contains_single_path(FPNode* pNode);
 	int item_frequency(string item) {return table->find_frequency(item);}
 	FPNode* getTree() { return fpTree; }
