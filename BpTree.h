@@ -4,6 +4,7 @@
 #include "BpTreeDataNode.h"
 #include "BpTreeIndexNode.h"
 #include <fstream>
+#include <iostream>
 
 class BpTree {
 private:
