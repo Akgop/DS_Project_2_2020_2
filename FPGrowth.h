@@ -2,6 +2,8 @@
 #include "HeaderTable.h"
 #include <fstream>
 #include <iostream>
+#include <vector>
+#include <set>
 
 class FPGrowth
 {
