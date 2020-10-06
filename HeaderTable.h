@@ -1,5 +1,7 @@
 #pragma once
 #include "FPNode.h"
+#include <list>
+
 class HeaderTable
 {
 private:
