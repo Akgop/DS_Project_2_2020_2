@@ -27,7 +27,7 @@ public:
 	BpTreeNode* getRoot() { return root; }
 	BpTreeNode* searchDataNode(int n);
 
-	void printSubset(set<string> pSubset, string item);
+	void	printFrequentPattern(set<string> pFrequentPattern, string item);
 	bool	printFrequency(string item, int min_frequency);
 	bool	printConfidence(string item, double item_frequency, int min_frequency);
 	bool 	printRange(string item, int min, int max);
