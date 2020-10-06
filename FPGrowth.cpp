@@ -27,16 +27,16 @@ map<set<string>, int> FPGrowth::getFrequentPattern(HeaderTable* pTable, FPNode* 
 
 
 
-void FPGrowth::powerSet(map<set<string>, int>* subset, vector<string> data, string item, int frequency, int* ptr, int depth) {
+void FPGrowth::powerSet(map<set<string>, int>* FrequenctPattern, vector<string> data, string item, int frequency, int* ptr, int depth) {
 	if (data.size() == depth) {
 		set<string> set; set.insert(item);
 		for (int i = 0; i < data.size(); i++) { if (ptr[i] == 1) set.insert(data[i]); }
-		subset->insert(make_pair(set, frequency)); return;
+		FrequenctPattern->insert(make_pair(set, frequency)); return;
 	}
 	ptr[depth] = 1;
-	powerSet(subset, data, item, frequency, ptr, depth + 1);
+	powerSet(FrequenctPattern, data, item, frequency, ptr, depth + 1);
 	ptr[depth] = 0;
-	powerSet(subset, data, item, frequency, ptr, depth + 1);
+	powerSet(FrequenctPattern, data, item, frequency, ptr, depth + 1);
 }
 
 bool FPGrowth::printList() {
