@@ -30,10 +30,10 @@ public:
 	
 	void SubsetSetting() {
 		table->ascendingIndexTable();
-		subSet = getSubset(table, fpTree);
+		subSet = getFrequentPattern(table, fpTree);
 	}
 
-	map<set<string>, int> getSubset(HeaderTable* pTable, FPNode* pTree);
+	map<set<string>, int> getFrequentPattern(HeaderTable* pTable, FPNode* pTree);
 	void powerSet(map<set<string>, int>* subset, vector<string> data, string item, int frequency, int* flag, int depth);
 	bool contains_single_path(FPNode* pNode);
 	int item_frequency(string item) {return table->find_frequency(item);}
@@ -42,7 +42,7 @@ public:
 
 	bool printList();
 	bool printTree();
-	void saveSubset();
+	void saveFrequentPattern();
 
 	};
 
