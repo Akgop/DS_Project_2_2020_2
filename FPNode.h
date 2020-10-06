@@ -1,11 +1,7 @@
 #pragma once
 
-#include <iostream>
-#include <list>
-#include <vector>
 #include <cstring>
 #include <map>
-#include <set>
 #include <cmath>
 using namespace std;
 class FPNode
