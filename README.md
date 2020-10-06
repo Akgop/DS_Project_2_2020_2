@@ -19,7 +19,7 @@
 
 ### 1. 프로젝트 문서 및 소스코드 수정사항
 
-#### [2020_DS_Project2_ver1.pdf](https://github.com/DSLDataStorage/DS_Project_1_2020_2/files/5329271/2020_DS_Project2_ver1.pdf)
+#### [2020_DS_Project2_ver1.pdf](https://github.com/DSLDataStorage/DS_Project_2_2020_2/files/5331125/2020_DS_Project2_ver1.pdf)
 
 ```
 10/06 - ver1 업로드
