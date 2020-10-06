@@ -31,7 +31,7 @@ void FPGrowth::powerSet(map<set<string>, int>* FrequenctPattern, vector<string> 
 	if (data.size() == depth) {
 		set<string> set; set.insert(item);
 		for (int i = 0; i < data.size(); i++) { if (ptr[i] == 1) set.insert(data[i]); }
-		FrequenctPattern->insert(make_pair(set, frequency)); return;
+		frequenctPattern->insert(make_pair(set, frequency)); return;
 	}
 	ptr[depth] = 1;
 	powerSet(FrequenctPattern, data, item, frequency, ptr, depth + 1);
