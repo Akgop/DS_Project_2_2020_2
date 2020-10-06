@@ -1,6 +1,8 @@
 #pragma once
 #include "HeaderTable.h"
 #include <fstream>
+#include <iostream>
+
 class FPGrowth
 {
 private:
