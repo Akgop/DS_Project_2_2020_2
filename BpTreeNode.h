@@ -1,5 +1,5 @@
 #pragma once
-#include "SubSetNode.h"
+#include "FrequentPatternNode.h"
 #include "FPNode.h"
 class BpTreeNode
 {
@@ -27,11 +27,11 @@ public:
 	virtual BpTreeNode* getNext() { return NULL; }
 	virtual BpTreeNode* getPrev() { return NULL; }
 
-	virtual void insertDataMap(int n, SubSetNode* pN) {}
+	virtual void insertDataMap(int n, FrequentPatternNode* pN) {}
 	virtual void insertIndexMap(int n, BpTreeNode* pN) {}
 	virtual void deleteMap(int n) {}
 
 	virtual map<int, BpTreeNode*>* getIndexMap() { map<int, BpTreeNode*> m; return &m; }
-	virtual map<int, SubSetNode*>* getDataMap() { map<int, SubSetNode*> m; return &m; }
+	virtual map<int, FrequentPatternNode*>* getDataMap() { map<int, FrequentPatternNode*> m; return &m; }
 
 };
