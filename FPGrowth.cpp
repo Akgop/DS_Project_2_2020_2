@@ -44,7 +44,6 @@ bool FPGrowth::printList() {
 	return true;
 }
 bool FPGrowth::printTree() {
-	
 	return true;
 }
 void FPGrowth::saveFrequentPattern(){
