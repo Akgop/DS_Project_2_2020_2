@@ -47,6 +47,6 @@ bool FPGrowth::printTree() {
 	
 	return true;
 }
-void FPGrowth::saveSubset(){
+void FPGrowth::saveFrequentPattern(){
 
 }
