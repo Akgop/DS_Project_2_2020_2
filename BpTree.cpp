@@ -43,7 +43,7 @@ bool BpTree::printRange(string item, int min, int max) {
 
 	return true;
 }
-void BpTree::printFrequentPattern(set<string> pFrequentPattern, string item) {
+void BpTree::printFrequentPatterns(set<string> pFrequentPattern, string item) {
 	*fout << "{";
 	set<string> curPattern = pFrequentPattern;
 	curPattern.erase(item);
