@@ -20,7 +20,7 @@ bool FPGrowth::contains_single_path(FPNode* pNode) {
 	return contains_single_path(pNode->getChildren().begin()->second);
 }
 
-map<set<string>, int> FPGrowth::getFrequentPattern(HeaderTable* pTable, FPNode* pTree) {
+map<set<string>, int> FPGrowth::getFrequentPatterns(HeaderTable* pTable, FPNode* pTree) {
 
 	return {};
 }
@@ -46,6 +46,6 @@ bool FPGrowth::printList() {
 bool FPGrowth::printTree() {
 	return true;
 }
-void FPGrowth::saveFrequentPattern(){
+void FPGrowth::saveFrequentPatterns(){
 
 }
