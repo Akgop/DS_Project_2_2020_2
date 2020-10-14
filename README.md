@@ -27,7 +27,10 @@
 10/06 - ver1 업로드
 ```
 
-
+```
+10/14 - BpTreeNode.h 소스코드 수정
+getIndexNode와 getDataNode 함수의 반환을 return {};으로 변경되었습니다.
+```
 ### 2. 자주들어오는 질문 
 
 **Q. command.txt는 제공하지 않나요?**  
