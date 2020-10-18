@@ -37,6 +37,11 @@ getIndexNode와 getDataNode 함수의 반환을 return {};으로 변경되었습
 b+-tree의 예시 그림 변경
 ```
 
+```
+10/18 - fpgrowth.h, .cpp 변수명 변경
+frequenct 오타를 frequent로 수정
+```
+FrequentPattern
 ### 2. 자주들어오는 질문 
 
 **Q. command.txt는 제공하지 않나요?**  
