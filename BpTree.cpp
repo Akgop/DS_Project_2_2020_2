@@ -29,7 +29,7 @@ bool BpTree::excessIndexNode(BpTreeNode* pIndexNode) {
 }
 
 
-bool BpTree::printConfidence(string item, double item_frequency, int min_frequency)
+bool BpTree::printConfidence(string item, double item_frequency, double min_confidence)
 {
 
 	return true;
