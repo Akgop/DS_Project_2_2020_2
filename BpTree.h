@@ -29,7 +29,7 @@ public:
 
 	void	printFrequentPatterns(set<string> pFrequentPattern, string item);
 	bool	printFrequency(string item, int min_frequency);
-	bool	printConfidence(string item, double item_frequency, int min_frequency);
+	bool	printConfidence(string item, double item_frequency, double min_confidence);
 	bool 	printRange(string item, int min, int max);
 
 };
