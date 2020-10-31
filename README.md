@@ -41,6 +41,13 @@ b+-tree의 예시 그림 변경
 10/18 - fpgrowth.h, .cpp 변수명 변경
 frequenct 오타를 frequent로 수정
 ```
+
+```
+11/01 - bptree.h, .cpp의 함수 printConfidence의 변수 변경
+int min_frequency => double min_confidence
+이해하기 쉽도록 변수를 변경하였습니다. 변경전 int min_frequency로 코드를 구현하셔도 됩니다.
+min_frequency 값은 명령어에서 인자로 받은 confidence* item의 frequency 값입니다.
+```
 FrequentPattern
 ### 2. 자주들어오는 질문 
 
