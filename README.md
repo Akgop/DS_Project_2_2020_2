@@ -48,7 +48,17 @@ int min_frequency => double min_confidence
 이해하기 쉽도록 변수를 변경하였습니다. 변경전 int min_frequency로 코드를 구현하셔도 됩니다.
 min_frequency 값은 명령어에서 인자로 받은 confidence* item의 frequency 값입니다.
 ```
-FrequentPattern
+
+```
+11/03 - FrequentPatternNode.h 오타 수정
+
+clear가 있는 FrequentPatternNode() -> ~FrequentPatternNode()
+clear가 있는 생성자 부분은 원래 소멸자에 해당됩니다. ~를 빼먹어서 수정했습니다.
+
+SubSetList.clear() =>  FrequentPatternList.clear()
+변수명 변경과정에서 SubSetList를 FrequentPatternList로 변경하지 않은 오타를 수정하였습니다.
+```
+
 ### 2. 자주들어오는 질문 
 
 **Q. command.txt는 제공하지 않나요?**  
