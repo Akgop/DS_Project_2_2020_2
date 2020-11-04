@@ -30,11 +30,11 @@ bool Manager::BTLOAD()
 	return true;
 }
 
-bool Manager::PRINT_ITEMLIST(char* item, int start, int end) {
+bool Manager::PRINT_ITEMLIST() {
 	
 }
 
-bool Manager::PRINT_FPTREE(char* item, int start, int end) {
+bool Manager::PRINT_FPTREE() {
 	
 }
 
