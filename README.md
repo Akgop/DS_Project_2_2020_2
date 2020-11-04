@@ -58,7 +58,12 @@ clear가 있는 생성자 부분은 원래 소멸자에 해당됩니다. ~를 �
 SubSetList.clear() =>  FrequentPatternList.clear()
 변수명 변경과정에서 SubSetList를 FrequentPatternList로 변경하지 않은 오타를 수정하였습니다.
 ```
+```
+11/04 - Manager.cpp 함수 수정
 
+.h 함수와 인자가 다른 두 함수
+PRINT_ITEMLIST, PRINT_FPTREE를 수정하였습니다
+```
 ### 2. 자주들어오는 질문 
 
 **Q. command.txt는 제공하지 않나요?**  
